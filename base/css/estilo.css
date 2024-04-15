@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+
+#cabecalho{
+    height: 190px;
+    position: relative;
+    background-image: url("../img/banner-6617550_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto",sans-serif;
+    font-size: 2rem;
+
+/*Seletores aninhados*/
+    h1{
+      
+        position: absolute;
+        top:20%;
+        left:10%;
+        color: #fff;
+    }
+
+    nav{
+        position: absolute;
+        left:75%;
+        bottom:15%;
+    
+
+    li{
+        display: inline;
+    }
+
+
+}   
+}
