@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+#cabecalho {
+  background-image: url(../img/banner-1280x640.png);
+  height: 190px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+  /*Cada "rem" representa uma medida padrão para os
+  elementos do HTML. Cada elemento HTML tem por padrão
+  16 pixels, então 2 rem = 32 pixel*/
+  font-size: 2rem;
+
+  /*Seletores aninhados*/
+  h1 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #ffffff;
+  }
+
+  nav {
+    float: right;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    ul {
+      list-style: none;
+      li {
+        display: inline;
+      }
+    }
+  }
+}
