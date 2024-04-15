@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+#cabecalho{
+    background-color: aliceblue;
+    height: 190px;
+    position: relative;
+    background-image: url("../img/banner-1280×640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: "Roboto", sans-serif;
+    font-size: 2ren;
+    
+    
+    h1{
+        float: left;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        color: black;
+    }
+    nav{
+        float: right;
+        right: 15%;
+        position: absolute;
+        top: 25%;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        display: block;
+    }
+}
