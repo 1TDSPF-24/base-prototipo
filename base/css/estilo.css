@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+#cabecalho{background-color: aqua;
+           height: 190px;
+           position: relative;
+           background-image: url("../img/banner-6617550_1280.png");
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size:cover ;
+           font-family: "Roboto", sans-serif;
+           font-size: 1rem;
+           /*seletores alinhados*/
+           h1{
+            float: left;
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            color: #fff;
+           }
+           nav{
+            float: right;
+            position: absolute;
+            top: 30%;
+            right: 10%;
+
+           }
+
+}
+ 
+
+
