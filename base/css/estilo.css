@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-#cabecalho{
+/* #cabecalho{
     background-color: aqua;
     height: 190px;
     position: relative;
@@ -9,10 +9,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 2rem; */
 
     /*Seletores aninhados*/
-    h1{
+    /* h1{
         float: left;
         position: absolute;
         top:10%;
@@ -36,4 +36,50 @@
         }
     }
 
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+}
+
+#topo{
+    display: flex;
+    background-color: #06040f;
+    height: 80px;
+    color: #fff;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#topo span, nav{
+    margin:0 5% ;
+}
+
+#topo span{
+    align-self: center;
+}
+
+.link{
+    display: inline;
+    margin-left: 20px;
+
+    a{
+        padding: 10px;
+        background-color: blueviolet;
+        color: #fff;
+        border-radius: 5px;
+        transition: all 0.3s ease-in ;
+
+        &:hover{
+            background-color: brown;
+        }
+    }
+
+}
+
