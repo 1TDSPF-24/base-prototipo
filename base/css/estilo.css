@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
@@ -29,6 +29,49 @@ body {
       li {
         display: inline;
       }
+    }
+  }
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#topo {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #060416;
+}
+
+#topo span,
+nav {
+  margin: 0 5%;
+}
+
+#topo span {
+  align-self: center;
+}
+
+.link {
+  display: inline;
+  margin-left: 20px;
+
+  a {
+    padding: 5px;
+    background-color: purple;
+    border-radius: 3px;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+      background-color: #060416;
     }
   }
 }
