@@ -67,7 +67,7 @@ a{
 
 .link{
     display: inline;
-    margin-left: 20px;
+    
 
     a{
         padding: 10px;
@@ -81,5 +81,13 @@ a{
         }
     }
 
+}
+
+
+#topo nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
