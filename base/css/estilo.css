@@ -1,39 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-
-
-#cabecalho{
+/* #cabecalho{
     background-color: aqua;
     height: 190px;
     position: relative;
-    background-image: url("../img/banner-6617550_1280.png");
+    background-image: url("../img/banner-1280×640.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 2rem; */
 
-    /*seletores alinhados*/
-    h1{
+    /*Seletores aninhados*/
+    /* h1{
         float: left;
         position: absolute;
-        top: 30%;
+        top:10%;
         left: 10%;
-        color: #FFFFFF;
+        color: #fff;
 
     }
 
     nav{
         float: right;
         position: absolute;
-        top: 25%;
-        right: 10%;
+        top:25%;
+        right: 10% ;
 
         ul{
-            list-style: nome;
+            list-style:  none;
+            
             li{
                 display: inline;
             }
         }
+    }
+
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#topo{
+    display: flex;
+    background-color: rgb(2, 2, 13);
+    height: 80px;
+    color: #fff;
+    justify-content: space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#topo span, nav{
+    margin: 0 5%;
+}
+
+#topo span{
+    align-self: center;
+}
+
+.link{
+    display: inline;
+    margin-left: 20px;
+
+    a{
+        padding: 10px;
+        background-color: blueviolet;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.2s ease-in ;
+
+        &:hover{
+            background-color: rgb(229, 21, 21);
+        }
+
     }
 }
