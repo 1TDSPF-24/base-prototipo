@@ -49,6 +49,7 @@ a {
   align-items: center;
   color: #fff;
   background-color: #060416;
+  flex-wrap: wrap;
 }
 
 #topo span,
@@ -62,7 +63,7 @@ nav {
 
 .link {
   display: inline;
-  margin-left: 20px;
+  flex-wrap: wrap;
 
   a {
     padding: 5px;
@@ -74,4 +75,10 @@ nav {
       background-color: #060416;
     }
   }
+}
+
+#topo nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
