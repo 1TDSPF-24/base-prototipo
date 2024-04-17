@@ -1,38 +1,91 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 
-#cabecalho {
-  background-image: url(../img/banner-1280x640.png);
-  height: 190px;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+/* #cabecalho{
+    background-color: aqua;
+    height: 190px;
+    position: relative;
+    background-image: url("../img/banner-1280×640.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem; */
 
-  /*Cada "rem" representa uma medida padrão para os
-  elementos do HTML. Cada elemento HTML tem por padrão
-  16 pixels, então 2 rem = 32 pixel*/
-  font-size: 2rem;
+/*Seletores aninhados*/
+/* h1{
+        float: left;
+        position: absolute;
+        top:10%;
+        left: 10%;
+        color: #fff;
 
-  /*Seletores aninhados*/
-  h1 {
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    color: #ffffff;
-  }
+    }
 
-  nav {
-    float: right;
-    position: absolute;
-    top: 35%;
-    left: 80%;
-    ul {
-      list-style: none;
-      li {
-        display: inline;
-      }
+    nav{
+        float: right;
+        position: absolute;
+        top:25%;
+        right: 10% ;
+
+        ul{
+            list-style:  none;
+            
+            li{
+                display: inline;
+            }
+        }
+    }
+
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#topo {
+  display: flex;
+  background-color: #06040f;
+  height: 80px;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#topo span,
+nav {
+  margin: 0 5%;
+}
+
+#topo span {
+  align-self: center;
+}
+
+.link {
+  display: inline;
+  margin-left: 20px;
+
+  a {
+    padding: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.8s;
+
+    &:hover {
+      background-color: rgb(210, 233, 4);
     }
   }
+}
+
+#topo nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
