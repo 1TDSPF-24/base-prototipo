@@ -77,7 +77,7 @@ a{
         transition: all 0.3s ease-in ;
 
         &:hover{
-            background-color: brown;
+            background-color: rgb(223, 63, 196);
         }
     }
 
