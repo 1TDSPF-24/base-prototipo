@@ -35,5 +35,83 @@
             }
         }
     }
-
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    #topo{
+        display: flex;
+        background-color: #06040f;
+        height: 80px;
+        color: #fff;
+        justify-content:space-between ;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    #topo span, nav{
+        margin:0 5% ;
+    }
+    
+    #topo span{
+        align-self: center;
+    }
+    
+    .link{
+        display: inline;
+        
+    
+        a{
+            padding: 10px;
+            background-color: blueviolet;
+            color: #fff;
+            border-radius: 5px;
+            transition: all 0.3s ease-in ;
+    
+            &:hover{
+                background-color: brown;
+            }
+        }
+    
+    }
+    
+    
+    #topo nav ul{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    
+    .titulo{
+        text-align: center;
+        margin: 3%;
+    }
+    
+    .pets{
+        display: flex;
+        width: 80px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        
+    }
+    
+    .pets figure{
+        /* flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 200px; */
+        flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
+    }
+    
+    .pets figure img{
+        max-width: 100%;
+        display: block;
+    }
 }
