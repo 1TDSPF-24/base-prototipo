@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-#cabecalho{
+/* #cabecalho{
     background-color: aqua;
     height: 190px;
     position: relative;
@@ -13,7 +13,7 @@
     font-size: 2rem;
 }
     /*Seletores alinhados*/
-    h1{
+    {h1{
         float: left;
         position: absolute;
         top: 10%;
@@ -21,7 +21,7 @@
         color: #fff;
 
     /*Seletores aninhados*/
-    h1{
+    /* h1{
         float: left;
         position: absolute;
         top:10%;
@@ -55,7 +55,7 @@
 
 }
 }
-    *{
+*{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
