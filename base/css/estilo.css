@@ -86,11 +86,37 @@ a{
     }
 
 
-
-
 #topo nav ul{
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.titulo {
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+}
+
+.pets {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap
+
+}
+
+.pets figure {
+    /*flex-grow: 1px;
+    flex-shrink: 1px;
+    flex-basis: 20px;*/
+    flex: 1 1 200px;
+
+    margin: 10px;
+}
+
+.pets figure img{
+    max-width: 100%;
+    display: block;
 }
