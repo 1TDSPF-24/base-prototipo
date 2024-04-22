@@ -92,7 +92,6 @@ a{
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .titulo {
     display: flex;
     margin: 3%;
@@ -112,7 +111,27 @@ a{
     flex-shrink: 1px;
     flex-basis: 20px;*/
     flex: 1 1 200px;
+    margin: 10px;
+}
 
+.titulo{
+    text-align: center;
+    margin: 3%;
+}
+
+.pets{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.pets figure{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
     margin: 10px;
 }
 
