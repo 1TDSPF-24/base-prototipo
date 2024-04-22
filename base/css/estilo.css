@@ -1,25 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 #cabecalho{
     background-color: aqua;
     height: 190px;
     position: relative;
-<<<<<<< HEAD
     background-image: url("../prototipo/banner-6617550_1280.png");
-=======
     background-image: url("../img/banner-1280×640.png");
->>>>>>> main
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
-
-<<<<<<< HEAD
+}
     /*Seletores alinhados*/
     h1{
         float: left;
@@ -27,7 +19,7 @@
         top: 10%;
         left: 10%;
         color: #fff;
-=======
+
     /*Seletores aninhados*/
     h1{
         float: left;
@@ -36,22 +28,19 @@
         left: 10%;
         color: #fff;
 
->>>>>>> main
     }
 
     nav{
         float: right;
         position: absolute;
-<<<<<<< HEAD
+
         top: 25%;
         right: 10%;
 
         ul{
             list-style: none;
             li{
-                display: inline;
-
-=======
+            display: inline;
         top:25%;
         right: 10% ;
 
@@ -60,18 +49,12 @@
             
             li{
                 display: inline;
->>>>>>> main
             }
         }
     }
-<<<<<<< HEAD
 
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> main
-=======
     *{
         margin: 0;
         padding: 0;
@@ -152,4 +135,3 @@
         display: block;
     }
 }
->>>>>>> 788748cc6b2fa185f65d46c523f3628bed7ef432
