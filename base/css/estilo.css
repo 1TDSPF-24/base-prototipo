@@ -88,3 +88,23 @@ nav {
   gap: 20px;
   flex-wrap: wrap;
 }
+
+.titulo {
+  text-align: center;
+  margin: 3;
+}
+
+.pets {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.pets figure {
+  flex: 1 1 200px;
+}
+
+.pets figure img {
+  max-width: 100%;
+}
