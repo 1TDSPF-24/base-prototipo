@@ -99,3 +99,26 @@ a{
     flex-wrap: wrap;
 }
 
+.titulo{
+    text-align: center;
+    margin: 3%;
+}
+
+.pets{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pets figure{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    margin: 10px;
+}
+
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
