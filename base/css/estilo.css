@@ -9,17 +9,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Roboto", sans-serif;
-<<<<<<< HEAD
-    font-size: 2rem;*/
 
-    /*Seletores aninhados*/
-    /*h1{
-=======
     font-size: 2rem; */
 
     /*Seletores aninhados*/
     /* h1{
->>>>>>> main
         float: left;
         position: absolute;
         top:10%;
@@ -44,56 +38,28 @@
     }
 
 } */
-<<<<<<< HEAD
-* {
-=======
+
+
 *{
->>>>>>> main
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-a {
-    text-decoration: none;
-}
-
-#topo {
-=======
 a{
     text-decoration: none;
 }
 
 #topo{
->>>>>>> main
     display: flex;
     background-color: #06040f;
     height: 80px;
     color: #fff;
-<<<<<<< HEAD
-    justify-content: space-between;
-=======
     justify-content:space-between ;
->>>>>>> main
     align-items: center;
     flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
-#topo span, nav {
-    margin: 0 5%;
-}
-
-#topo span {
-    align-self: center;
-}
-
-.link {
-    display: inline;
-
-    a {
-=======
 #topo span, nav{
     margin:0 5% ;
 }
@@ -104,44 +70,27 @@ a{
 
 .link{
     display: inline;
-    
+}   
 
     a{
->>>>>>> main
         padding: 10px;
         background-color: blueviolet;
         color: #fff;
         border-radius: 5px;
-<<<<<<< HEAD
-        transition: background-color 0.3s ease-in;
 
-        &:hover {
-=======
         transition: all 0.3s ease-in ;
 
         &:hover{
->>>>>>> main
             background-color: brown;
         }
     }
 
-<<<<<<< HEAD
-#topo nav ul { 
-=======
-}
+
 
 
 #topo nav ul{
->>>>>>> main
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-<<<<<<< HEAD
-}   
-
 }
-=======
-}
-
->>>>>>> main
