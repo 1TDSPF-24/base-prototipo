@@ -37,10 +37,6 @@
     }
 
 } */
-<<<<<<< HEAD
-
-=======
->>>>>>> main
 *{
     margin: 0;
     padding: 0;
@@ -53,27 +49,16 @@ a{
 
 #topo{
     display: flex;
-<<<<<<< HEAD
-    background-color: rgb(2, 2, 13);
-    height: 80px;
-    color: #fff;
-    justify-content: space-between ;
-=======
     background-color: #06040f;
     height: 80px;
     color: #fff;
     justify-content:space-between ;
->>>>>>> main
     align-items: center;
     flex-wrap: wrap;
 }
 
 #topo span, nav{
-<<<<<<< HEAD
-    margin: 0 5%;
-=======
     margin:0 5% ;
->>>>>>> main
 }
 
 #topo span{
@@ -82,28 +67,13 @@ a{
 
 .link{
     display: inline;
-<<<<<<< HEAD
-    margin-left: 20px;
-=======
     
->>>>>>> main
 
     a{
         padding: 10px;
         background-color: blueviolet;
         color: #fff;
         border-radius: 5px;
-<<<<<<< HEAD
-        transition: background-color 0.2s ease-in ;
-
-        &:hover{
-            background-color: rgb(229, 21, 21);
-        }
-
-    }
-}
-
-=======
         transition: all 0.3s ease-in ;
 
         &:hover{
@@ -114,15 +84,35 @@ a{
 }
 
 
->>>>>>> main
 #topo nav ul{
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-<<<<<<< HEAD
-}
-=======
 }
 
->>>>>>> main
+
+.titulo{
+    text-align: center;
+    margin: 3%;
+}
+
+.pets{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.pets figure{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
+}
+
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
