@@ -99,11 +99,7 @@ a{
 
 .pets{
     display: flex;
-<<<<<<< HEAD
     max-width: 800px;
-=======
-    width: 800px;
->>>>>>> 1ea213c175c0b851d2bba836bcb8e2c1369363cc
     margin: 0 auto;
     flex-wrap: wrap;
     
@@ -114,11 +110,7 @@ a{
     flex-shrink: 1;
     flex-basis: 200px; */
     flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
-<<<<<<< HEAD
     margin: 10px;
-=======
-    margin: 1;
->>>>>>> 1ea213c175c0b851d2bba836bcb8e2c1369363cc
 }
 
 .pets figure img{
