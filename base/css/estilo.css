@@ -99,7 +99,11 @@ a{
 
 .pets{
     display: flex;
+<<<<<<< HEAD
     width: 800px;
+=======
+    max-width: 800px;
+>>>>>>> main
     margin: 0 auto;
     flex-wrap: wrap;
     
@@ -110,6 +114,10 @@ a{
     flex-shrink: 1;
     flex-basis: 200px; */
     flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
+<<<<<<< HEAD
+=======
+    margin: 10px;
+>>>>>>> main
 }
 
 .pets figure img{
