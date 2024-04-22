@@ -90,4 +90,21 @@ a{
     gap: 20px;
     flex-wrap: wrap;
 }
-
+.pets{
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
+.titulo{
+    text-align: center;
+    margin: 50px;
+}
+.pets figure{
+    flex: 1 1 200px;
+    margin:10px;
+}
