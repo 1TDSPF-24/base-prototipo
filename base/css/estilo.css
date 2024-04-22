@@ -91,23 +91,33 @@ a{
     flex-wrap: wrap;
 }
 
+
 .titulo{
     text-align: center;
-    flex-wrap: wrap;
+    margin: 3%;
 }
-
 
 .pets{
     display: flex;
+
+    max-width: 800px;
     width: 800px;
+
     margin: 0 auto;
     flex-wrap: wrap;
     
 }
 
 .pets figure{
-    flex: 1 1 200px;   
-    flex-wrap: wrap;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
+
+    margin: 10px;
+
+    margin: 1;
+
 }
 
 .pets figure img{
