@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  height: 600vw;
+  grid-template-columns: 30vw 15vw 15vw;
+  grid-template-rows: 15vw 15vw 15vw;
+  column-gap: 1vw;
+  row-gap: 1vw;
+}
+
+.box {
+  background-color: aqua;
+  border: 0.2vw solid red;
+  text-align: center;
+  align-content: center;
+
+  &:hover {
+    background-color: black;
+    transition: 1.3s ease-in;
+  }
+}
