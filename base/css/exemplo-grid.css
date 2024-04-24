@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  height: 600px;
+  grid-template-columns: minmax(150px, 30%) repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 5px;
+}
+
+.box {
+  background-color: purple;
+  border: 2px solid blue;
+  text-align: center;
+}
