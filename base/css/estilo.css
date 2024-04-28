@@ -1,45 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-
-/* #cabecalho{
-    height: 190px;
-    position:relative;
-    background-image: url("../img/banner-1280×640.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    /*Seletores alinhados*/
-    /* h1{
-        float: left;
-        position: absolute;
-        top: 15%;
-        left: 10%;
-        color: white;
-        .roboto-medium {
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-style: normal;
-          }
-    } */
-/*
-    nav{
-        float: right;
-        position: absolute;
-        top: 30%;
-        right: 10%;
-
-        ul{
-            list-style: none;
-
-            li{
-                display: inline-block;
-            }
-        }
-    }
-}
-*/
-
 *{
     margin: 0;
     padding: 0;
@@ -89,4 +49,13 @@ a{
     justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
+}
+.button .dentro{
+    background-color: #102133;
+    color:aliceblue;
+    padding: 20px;
+    border: 3px solid aliceblue;
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
 }
