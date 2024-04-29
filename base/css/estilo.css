@@ -90,6 +90,7 @@ a{
     gap: 20px;
     flex-wrap: wrap;
 }
+<<<<<<< HEAD
 .pets{
     display: flex;
     width: 800px;
@@ -108,3 +109,32 @@ a{
     flex: 1 1 200px;
     margin:10px;
 }
+=======
+
+
+.titulo{
+    text-align: center;
+    margin: 3%;
+}
+
+.pets{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.pets figure{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
+    margin: 10px;
+}
+
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
+>>>>>>> main
