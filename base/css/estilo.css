@@ -1,45 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-
 /* #cabecalho{
+    background-color: aqua;
     height: 190px;
-    position:relative;
+    position: relative;
     background-image: url("../img/banner-1280×640.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem; */
 
-    /*Seletores alinhados*/
+    /*Seletores aninhados*/
     /* h1{
         float: left;
         position: absolute;
-        top: 15%;
+        top:10%;
         left: 10%;
-        color: white;
-        .roboto-medium {
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-style: normal;
-          }
-    } */
-/*
+        color: #fff;
+
+    }
+
     nav{
         float: right;
         position: absolute;
-        top: 30%;
-        right: 10%;
+        top:25%;
+        right: 10% ;
 
         ul{
-            list-style: none;
-
+            list-style:  none;
+            
             li{
-                display: inline-block;
+                display: inline;
             }
         }
     }
-}
-*/
 
+} */
 *{
     margin: 0;
     padding: 0;
@@ -52,10 +49,10 @@ a{
 
 #topo{
     display: flex;
-    background-color: black;
+    background-color: #06040f;
     height: 80px;
-    color: white;
-    justify-content: space-between;
+    color: #fff;
+    justify-content:space-between ;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -65,28 +62,66 @@ a{
 }
 
 #topo span{
-    align-items: center;
+    align-self: center;
 }
 
 .link{
     display: inline;
+    
 
     a{
         padding: 10px;
-        background-color: rgb(20, 106, 235);
-        color: white;
+        background-color: blueviolet;
+        color: #fff;
         border-radius: 5px;
-        transition: background-color 0.8s ease-in;
-        
+        transition: all 0.3s ease-in ;
+
         &:hover{
-            background-color: rgb(255, 0, 0);
+            background-color: brown;
         }
     }
+
 }
 
-#topo nav, ul{
+
+#topo nav ul{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
+}
+
+
+.titulo{
+    text-align: center;
+    margin: 3%;
+}
+
+.pets{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+}
+
+.pets figure{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;   /*flex-grow, flex-shrink e flex-basis*/
+    margin: 10px;
+}
+
+.pets figure img{
+    max-width: 100%;
+    display: block;
+}
+
+.img-meio{
+    width: 334px;
+    height: 162px;
+    margin: 252px 195px;
+    display: block;
+
 }
