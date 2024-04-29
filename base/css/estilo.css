@@ -6,3 +6,9 @@
     display: block;
 }
     
+.fundo-servicos{
+    background-image: url(../img/fundo-servico.png);
+    width: 700px;
+    height: 700px;
+    top: 162px;
+}
