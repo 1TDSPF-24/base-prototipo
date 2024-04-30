@@ -19,3 +19,16 @@ background-color: #102133;
         width: 88px;
     }
 }
+footer{background-color: #102133;
+    text-align: center;
+
+}
+
+.footer .icon{
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;}
