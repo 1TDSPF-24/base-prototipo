@@ -1,6 +1,6 @@
 p{
     text-align: center;
-    font: Roboto;
+    font: Roboto sans-serif;
     font-weight: 800;
     size: 30px;
     line-height: 35.16px;
@@ -11,7 +11,6 @@ p{
     color: #fff;
     
 }
-
 
 .fundo-servicos{
     background-image: url(../img/fundo-servico.png);
@@ -29,11 +28,38 @@ p{
 }
 
 #cabecalho{
-    font: Roboto;
+    font: Roboto sans-serif;
     text-align: center;
     font-weight: 381;
     font-size: 42.2px;
     line-height: 50.62px;
     color: #fff;
 }
+
+.pai{
+    display: flex;
+    justify-content: space-around;
+}
+.button-d .dentro{
+    justify-content: center;
+    background-color: #102133;
+    color:aliceblue;
+    padding: 20px;
+    border: 3px solid aliceblue;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.button-e .dentro{
+    justify-content: center;
+    align-items: center;
+    background-color: #102133;
+    color:aliceblue;
+    padding: 20px;
+    border: 3px solid aliceblue;
+    border-radius: 15px;
+    font-size: 30px;
+
+}
+
 
