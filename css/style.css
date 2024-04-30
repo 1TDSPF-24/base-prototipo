@@ -14,11 +14,18 @@ p{
 
 
 .fundo-servicos{
-    background-image: url(/img/fundo-servico.png);
-    background-color: rgba(36, 36, 58, 0.877); 
+    background-image: url(../img/fundo-servico.png);
+    background-color: rgba(36, 36, 58, 0.925); 
     background-blend-mode: overlay;
     width: 700px;
     height: 700px;
     top: 162px;
+}
+
+.imagem-meio{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 100px;
 }
 
