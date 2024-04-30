@@ -10,7 +10,8 @@ background-color: #102133;
         color: #fff;
         font-family: "Roboto", sans-serif;
         font-size: 86px;
-        margin-top: 25px
+        margin-top: 25px;
+        margin-left: 10px;
     }
     img{
         margin-top: 40px;
