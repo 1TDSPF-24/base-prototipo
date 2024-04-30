@@ -1,0 +1,24 @@
+p{
+    text-align: center;
+    font: Roboto;
+    font-weight: 800;
+    size: 30px;
+    line-height: 35.16px;
+    width: 615px;
+    height: 245px;
+    top: 470px;
+    left: 69px;
+    color: #fff;
+    
+}
+
+
+.fundo-servicos{
+    background-image: url(/img/fundo-servico.png);
+    background-color: rgba(36, 36, 58, 0.877); 
+    background-blend-mode: overlay;
+    width: 700px;
+    height: 700px;
+    top: 162px;
+}
+
