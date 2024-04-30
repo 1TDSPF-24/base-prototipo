@@ -28,3 +28,12 @@ p{
     align-items: center; 
 }
 
+#cabecalho{
+    font: Roboto;
+    text-align: center;
+    font-weight: 381;
+    font-size: 42.2px;
+    line-height: 50.62px;
+    color: #fff;
+}
+
