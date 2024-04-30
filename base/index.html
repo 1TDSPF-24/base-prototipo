@@ -7,42 +7,46 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header id="cabecalho">
+    <header class="cabecalho">
       <img src="./img/logo.png" alt="Logo Next" />
       <h1>BANCO NEXT</h1>
     </header>
-    <main>
-      <div class="cadastro-container">
-        <h2 class="texto-login">LOGIN</h2>
-        <form class="formulario">
-          <label for="conta-corrente"></label>
-          <input class="campo" id="campo-conta-corrente" type="text" placeholder="Conta Corrente" />
-          <label for="senha"></label>
-          <input class="campo" id="campo-senha" type="password" placeholder="Senha" />
-        </form>
-        <button id="botao-entrar-login">Entrar</button>
-      </div>
-    </main>
-    <div class="fundo-servicos">
-      <header id="cabecalho">
-        <h1>SERVIÇOS</h1>
-      </header>
-      <div class="imagem-meio">
-        <img src="./img/logo-servico.png" alt="logo" />
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur. Ultricies nulla congue habitasse vulputate non auctor nunc leo. Et consequat molestie arcu fermentum
-        pulvinar nec. Pretium sagittis sed ullamcorper eget. Molestie facilisis fermentum sed egestas gravida tempor donec.
-      </p>
-      <div class="pai">
-        <div class="button-e">
-          <button class="dentro"><a>Serviços</a></button>
+
+    <div id="content">
+      <div class="fundo-servicos">
+        <header class="cabecalho">
+          <h1>SERVIÇOS</h1>
+        </header>
+        <div class="imagem-meio">
+          <img src="./img/logo-servico.png" alt="logo" />
         </div>
-        <div class="button-d">
-          <button class="dentro"><a>Abra sua conta</a></button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Ultricies nulla congue habitasse vulputate non auctor nunc leo. Et consequat molestie arcu fermentum
+          pulvinar nec. Pretium sagittis sed ullamcorper eget. Molestie facilisis fermentum sed egestas gravida tempor donec.
+        </p>
+        <div class="pai">
+          <div class="button-e">
+            <button class="dentro"><a>Serviços</a></button>
+          </div>
+          <div class="button-d">
+            <button class="dentro"><a>Abra sua conta</a></button>
+          </div>
         </div>
       </div>
+      <main>
+        <div class="cadastro-container">
+          <h2 class="texto-login">LOGIN</h2>
+          <form class="formulario">
+            <label for="conta-corrente"></label>
+            <input class="campo" id="campo-conta-corrente" type="text" placeholder="Conta Corrente" />
+            <label for="senha"></label>
+            <input class="campo" id="campo-senha" type="password" placeholder="Senha" />
+          </form>
+          <button id="botao-entrar-login">Entrar</button>
+        </div>
+      </main>
     </div>
+
     <footer class="footer">
       <a href="https://myoctocat.com/"><img src="./img/Octocat.png" alt="Icon 1" class="icon" /> </a>
       <a href="https://google.com/">

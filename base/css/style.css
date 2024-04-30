@@ -7,42 +7,33 @@
   box-sizing: border-box;
 }
 
-#cabecalho {
+.cabecalho {
   background-color: #102133;
   height: 162px;
   width: 100%;
   display: flex;
   align-content: center;
   justify-content: center;
-  h1 {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-size: 86px;
-    margin-top: 25px;
-    margin-left: 10px;
-  }
-  img {
+  
+}
+img {
     margin-top: 40px;
     height: 68px;
     width: 88px;
   }
-}
+h1 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 86px;
+    margin-top: 45px;
+    margin-left: 10px;
+  }
 
-footer {
-  background-color: #102133;
-  text-align: center;
+#content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
-
-.footer .icon {
-  width: 96px;
-  height: 96px;
-  display: inline-block;
-  margin-left: 6vw;
-  margin-right: 6vw;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-}
-
 .cadastro-container {
   height: 100%;
   display: flex;
@@ -54,6 +45,9 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 700px;
+  height: 700px;
+  margin-left: 110px;
 }
 
 .formulario {
@@ -103,8 +97,9 @@ footer {
 }
 p{
     text-align: center;
-    font: Roboto sans-serif;
+    font: "Roboto", sans-serif;
     font-weight: 800;
+    font-size: 30px;
     size: 30px;
     line-height: 35.16px;
     width: 615px;
@@ -130,7 +125,7 @@ p{
     align-items: center; 
 }
 
-#cabecalho{
+.cabecalho{
     font: Roboto sans-serif;
     text-align: center;
     font-weight: 381;
@@ -166,3 +161,18 @@ p{
 }
 
 
+footer {
+    background-color: #102133;
+    text-align: center;
+  }
+  
+  .footer .icon {
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+  
