@@ -6,13 +6,16 @@
   }
   
   .container{
-      display: grid;
-      background-color: #939c9b;
-      height: 60vh;
-      grid-template-columns: repeat(3,minmax(150px, 30%));
-      column-gap: 5px;
-      grid-template-rows: repeat(3,1fr);
-      row-gap: 5px;
+    display: grid;
+    background-color: #939c9b;
+    height: 60vh;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    gap:5px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 
   }
 
@@ -22,4 +25,12 @@
     text-align: center;
     border: 2px solid #0000ff;
 
+  }
+
+  .container :nth-child(n+5){
+    background-color: #0000ff;
+  }
+
+  .container :nth-child(n+5):hover{
+    background-color:blueviolet ;
   }
