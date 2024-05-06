@@ -8,12 +8,17 @@
 .container{
     display: grid;
     background-color: #939c9b;
-    height: 60vh;
+    height: 100vh;
     /* column-gap: 5px; */
-    grid-template-columns: git config 
-    /* row-gap: 5px; */
-    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
     gap:5px;
+
+    justify-content: flex-end;
+    align-content: flex-start;
+
+    justify-items: center;
+    align-items: center;
 }
 
 .box{
@@ -24,3 +29,18 @@
     
 }
 
+/* /* .box5{
+    background-color: #0000ff;
+}
+
+.box5:hover{
+    background-color: #ff00ff;
+} */
+
+.container :nth-child(5), :nth-child(6){
+    background-color: #0000ff;
+}
+
+.container :nth-child(n+5):hover{
+    background-color: #ff00ff;
+} */
