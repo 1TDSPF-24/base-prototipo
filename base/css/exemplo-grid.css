@@ -37,7 +37,7 @@
     background-color: #ff00ff;
 } */
 
-.container :nth-child(5), :nth-child(6){
+/* .container :nth-child(5), :nth-child(6){
     background-color: #0000ff;
 }
 
