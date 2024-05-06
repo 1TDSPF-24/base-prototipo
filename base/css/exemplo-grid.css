@@ -6,18 +6,24 @@
 
 .container{
     display: grid;
-    height: 600px;
-    grid-template-columns: minmax(150px, 50%)  repeat(4,100px);
+    background-color: #939c9b;
+    height: 100vh;
+    /* column-gap: 5px; */
+    grid-template-columns: repeat(3,150px);
     grid-template-rows: repeat(3,150px);
-    /* column-gap: 5px;
-    row-gap: 5px; */
     gap:5px;
-    
+
+    justify-content: flex-end;
+    align-content: flex-start;
+
+    justify-items: center;
+    align-items: center;
 }
 
 .box{
-    background-color: blueviolet;
-    border: 2px solid #0000ff;
+    background-color: #8a2be2;
     color: #fff;
     text-align: center;
+    border: 2px solid #0000ff;
+    
 }
