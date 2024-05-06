@@ -1,0 +1,25 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  .container{
+      display: grid;
+      background-color: #939c9b;
+      height: 60vh;
+      grid-template-columns: repeat(3,minmax(150px, 30%));
+      column-gap: 5px;
+      grid-template-rows: repeat(3,1fr);
+      row-gap: 5px;
+
+  }
+
+  .box{
+    background-color: #8a2be2;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #0000ff;
+
+  }
