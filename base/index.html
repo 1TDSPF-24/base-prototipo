@@ -1,71 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INICIAL</title>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>JavaScript</title>
+
+    <script src="./js/script.js" defer></script>
+
 </head>
+
 <body>
-luizpaulo73
-<div>
-    <h1>BASE</h1>
+    
+    <header id="topo">
+        <h1 id="titulo">JavaScript</h1>
+        <nav>
+            <ul id="menu">
+                <li class="link"><a href="#">JavaScript</a></li>
+                <li class="link"><a href="#">Java</a></li>
+                <li class="link"><a href="#">C#</a></li>
+            </ul>
+        </nav>
+    </header>
     <div>
-        <p>Nome: Luiz</p>
-        <p>GitUser: luizpaulo73</p>
-    </div>
-</div>
-
-    <div>
-        <h1>BASE</h1>
+        <h2>VALIDAÇÃO</h2>
         <div>
-
-            <p>Nome: João</p>
-            <p>Gituser: joaolps</p>
+            <p class="valida"></p>
+        </div>
+        <div>
+            <form action="#" method="get" onsubmit="return validacao(idEmail,idSenha)">
+                <fieldset>
+                    <legend>LOGIN</legend>
+                    <div>
+                        <label for="idEmail">Email</label>
+                        <input type="email" name="txtEmail" id="idEmail" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <label for="idSenha">Senha</label>
+                        <input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="txtLembrar" id="idLembrar" value="lembrete" checked>
+                        <label for="idLembrar">Lembrar-me</label>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
         </div>
     </div>
-mkenzo
- mkenzo
-            <p>Nome: Kenzo</p>
-            <p>GitUser: mkenzo16</p>
-
-            <p>Nome: Alexandre</p>
-            <p>Gituser: alecarlosjesus</p>
-main
-
-            <p>Nome: Leonardo</p>
-            <p>Gituser: cadenasza</p>
-        </div>
-    </div>
-
-   <div>
-    <h1> BASE </h1>
-    <div>
-       <p>Nome: Gabriel Teodoro</p>
-       <p>Gituser: gtheox</p>
-    </div>
-   </div>
-
-    <div>
-
-        <h1>Base</h1>
-        <div>
-            <p>Nome:Adriano Barutti</p>
-            <p>Gituser:adriano-barutti</p>
-
-        <h1>BASE</h1>
-        <div>
-            <p>Nome: Julia</p>
-            <p>Gituser: juvascoli </p>
-            <p>Nome: Samantha</p>
-            <p>Gituser: samyfg41</p>
-            <p>Nome: Julio Cesar</p>
-            <p>Gituser: julio-crodrigues</p>
-            <p>Nome: Alexandre</p>
-            <p>Gituser: alecarlosjesus</p>
-
- main
-        </div>
-    </div>
-
-</body>
+  
+</body>                     
 </html>
