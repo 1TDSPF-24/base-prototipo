@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INICIAL</title>
-    <link rel="stylesheet" href="./css/estilo.css"> 
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>JavaScript</title>
+
+    <script src="./js/script.js" defer></script>
+
 </head>
+
 <body>
-   
-    <header id="cabecalho">
-        <h1>PROTÓTIPO</h1>
-        <!-- nav.navegacao>ul>li*3>a[href=#]{Item-$} -->
-        <nav class="navegacao">
-            <ul>
-                <li><a href="#">Item-1</a></li>
-                <li><a href="#">Item-2</a></li>
-                <li><a href="#">Item-3</a></li>
+    
+    <header id="topo">
+        <h1 id="titulo">JavaScript</h1>
+        <nav>
+            <ul id="menu">
+                <li class="link"><a href="#">JavaScript</a></li>
+                <li class="link"><a href="#">Java</a></li>
+                <li class="link"><a href="#">C#</a></li>
             </ul>
         </nav>
     </header>
-
-</body>
+    <div>
+        <h2>VALIDAÇÃO</h2>
+        <div>
+            <p class="valida"></p>
+        </div>
+        <div>
+            <form action="#" method="get" onsubmit="return validacao(idEmail,idSenha)">
+                <fieldset>
+                    <legend>LOGIN</legend>
+                    <div>
+                        <label for="idEmail">Email</label>
+                        <input type="email" name="txtEmail" id="idEmail" placeholder="Digite seu email">
+                    </div>
+                    <div>
+                        <label for="idSenha">Senha</label>
+                        <input type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="txtLembrar" id="idLembrar" value="lembrete" checked>
+                        <label for="idLembrar">Lembrar-me</label>
+                    </div>
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+  
+</body>                     
 </html>

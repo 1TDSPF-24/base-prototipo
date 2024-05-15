@@ -1,93 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-
-/* #cabecalho{
-    background-color: aqua;
-    height: 190px;
-    position: relative;
-    background-image: url("../img/banner-1280×640.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Roboto", sans-serif;
-    font-size: 2rem; */
-
-    /*Seletores aninhados*/
-    /* h1{
-        float: left;
-        position: absolute;
-        top:10%;
-        left: 10%;
-        color: #fff;
-
-    }
-
-    nav{
-        float: right;
-        position: absolute;
-        top:25%;
-        right: 10% ;
-
-        ul{
-            list-style:  none;
-            
-            li{
-                display: inline;
-            }
-        }
-    }
-
-} */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a{
-    text-decoration: none;
-}
-
-#topo{
-    display: flex;
-    background-color: #06040f;
-    height: 80px;
-    color: #fff;
-    justify-content:space-between ;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#topo span, nav{
-    margin:0 5% ;
-}
-
-#topo span{
-    align-self: center;
-}
-
-.link{
-    display: inline;
-    
-
-    a{
-        padding: 10px;
-        background-color: blueviolet;
-        color: #fff;
-        border-radius: 5px;
-        transition: all 0.3s ease-in ;
-
-        &:hover{
-            background-color: brown;
-        }
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  
+  .sucesso{
+      color: #0a840a;
+      font-weight: 500;
+      font-size: 1.5rem;
+      background-color: #7be87b;
+      text-align: center;
+      border: 2px solid #0a840a;
     }
-
-}
-
-
-#topo nav ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
+    
+    .erro{
+      color: #ff0000;
+      font-weight: 500;
+      font-size: 1.5rem;
+      background-color: #fb9898;
+      text-align: center;
+      border: 2px solid #ff0000;
+    }
+  
+  
+    fieldset{
+      display: flex;
+      width: 50vw;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      margin: 0 auto;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+  
+    fieldset div{
+      margin: 3% 1%;
+      width: 100%;
+    }
+  
+    label{
+      display: block;
+    }
+    input[type="password"], input[type="email"] {
+      display: block;
+      border-radius: 5px;
+      border: none;
+      box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+      width: 50vw;
+      height: 8vh;
+      padding-left: 10px;
+    }
+  
+    input[type="password"], input[type="email"] {
+      outline-color: #7be87b;
+      outline-offset: 10;
+    }
+  
+    button{
+      display: block;
+      margin: 0 auto;
+      width: 25vw;
+      height: 8vh;
+      box-shadow: inset 0 0 10px rgba(57, 220, 57, 0.5);
+      border: 2px solid #0a840a;
+      border-radius: 5px;
+      transition: all .4s ease;
+    }
+  
+    button:hover{
+      box-shadow: inset 0 0 10px rgba(3, 96, 96, 0.5);
+      border: 2px solid #0e19be;
+    }
+  
+    
